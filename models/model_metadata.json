@@ -1,0 +1,62 @@
+{
+    "project": "AI-Driven Intelligent Test Automation Framework for Software Quality Assurance",
+    "dataset": "NASA JM1 Software Defect Dataset",
+    "records": 10885,
+    "features": 21,
+    "target": "defects",
+    "best_model": "Random Forest",
+    "metrics": {
+        "accuracy": 0.7735,
+        "precision": 0.4139,
+        "recall": 0.4109,
+        "f1_score": 0.4124,
+        "roc_auc": 0.7249
+    },
+    "all_model_results": {
+        "Logistic Regression": {
+            "accuracy": 0.6977,
+            "precision": 0.3361,
+            "recall": 0.5772,
+            "f1_score": 0.4248,
+            "roc_auc": 0.698
+        },
+        "Random Forest": {
+            "accuracy": 0.7735,
+            "precision": 0.4139,
+            "recall": 0.4109,
+            "f1_score": 0.4124,
+            "roc_auc": 0.7249
+        },
+        "Gradient Boosting": {
+            "accuracy": 0.8094,
+            "precision": 0.5238,
+            "recall": 0.1568,
+            "f1_score": 0.2413,
+            "roc_auc": 0.7216
+        }
+    },
+    "trained_at": "2026-06-18 14:36:22",
+    "feature_columns": [
+        "loc",
+        "v(g)",
+        "ev(g)",
+        "iv(g)",
+        "n",
+        "v",
+        "l",
+        "d",
+        "i",
+        "e",
+        "b",
+        "t",
+        "lOCode",
+        "lOComment",
+        "lOBlank",
+        "locCodeAndComment",
+        "uniq_Op",
+        "uniq_Opnd",
+        "total_Op",
+        "total_Opnd",
+        "branchCount"
+    ]
+}
