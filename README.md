@@ -1,4 +1,5 @@
 # AI-Driven Intelligent Test Automation Framework for Software Quality Assurance
+[screen-capture (8).webm](https://github.com/user-attachments/assets/a7ccdee0-e7ce-4f86-a868-a7787ea6742e)
 
 This project predicts defective software modules using static code metrics and converts the prediction into a QA testing priority.
 
